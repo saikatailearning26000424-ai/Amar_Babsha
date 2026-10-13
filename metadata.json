@@ -1,0 +1,6 @@
+{
+  "name": "আমার ব্যবসা AI - Amar Business AI",
+  "description": "আপনার ব্যবসা, আপনার নিয়ন্ত্রণ—আরও সহজ, আরও স্মার্ট। ক্ষুদ্র ও মাঝারি ব্যবসার জন্য সম্পূর্ণ বিক্রয়, স্টক, খরচ, বাকি ও AI সহকারী প্ল্যাটফর্ম।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

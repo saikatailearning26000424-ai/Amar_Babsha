@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D5039"/>
+      <stop offset="50%" stop-color="#116149"/>
+      <stop offset="100%" stop-color="#16A574"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EE7B7"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="26" fill="url(#bg)"/>
+  <!-- Canopy Roof -->
+  <path d="M18 36C18 29.5 23 24.5 29.5 24.5H70.5C77 24.5 82 29.5 82 36C82 36.5 77 40 70 40C63 40 58.5 36.5 50 36.5C41.5 36.5 37 40 30 40C23 40 18 36.5 18 36Z" fill="#FFFFFF"/>
+  <path d="M39 24.5L34 40M61 24.5L66 40" stroke="#116149" stroke-width="2.5" stroke-linecap="round" opacity="0.25"/>
+  <!-- Pillars / Growth bars -->
+  <rect x="25" y="52" width="11" height="18" rx="3.5" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="42" y="44" width="11" height="26" rx="3.5" fill="#FFFFFF"/>
+  <rect x="59" y="36" width="11" height="34" rx="3.5" fill="url(#mint)"/>
+  <rect x="20" y="73" width="60" height="6.5" rx="3.25" fill="#FFFFFF"/>
+  <!-- Bengali 'ব' Ribbon -->
+  <path d="M26 68C26 50 40 31 63 31" stroke="url(#mint)" stroke-width="4" stroke-linecap="round"/>
+  <!-- AI Sparkle -->
+  <path d="M79 17C79 23 85 23 85 23C85 23 79 23 79 29C79 23 73 23 73 23C73 23 79 23 79 17Z" fill="url(#gold)"/>
+  <circle cx="79" cy="23" r="2" fill="#FFFFFF"/>
+</svg>

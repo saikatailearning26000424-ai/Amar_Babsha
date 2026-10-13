@@ -12,7 +12,7 @@
     color: #000000 !important;
   }
   
-  header, aside, nav, button, .print\\:hidden {
+  header, aside, nav, button, .no-print {
     display: none !important;
   }
 

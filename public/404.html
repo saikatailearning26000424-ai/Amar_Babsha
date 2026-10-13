@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>আমার ব্যবসা AI</title>
+    <script>
+      // Single Page App redirect for GitHub Pages
+      // When a sub-path is accessed or refreshed, GitHub Pages serves 404.html.
+      // This script preserves query/path and redirects to the index.html.
+      (function() {
+        var path = window.location.pathname;
+        var search = window.location.search;
+        var hash = window.location.hash;
+        
+        // Find base path segment if any
+        var segments = path.split('/').filter(Boolean);
+        var base = segments.length > 0 ? '/' + segments[0] + '/' : '/';
+        
+        // Redirect to base with path in query if needed, or simply reload root
+        window.location.replace(base + (hash ? hash : ''));
+      })();
+    </script>
+  </head>
+  <body style="font-family: sans-serif; text-align: center; padding: 40px; background: #F7F9FC; color: #172B24;">
+    <h2>লোড হচ্ছে...</h2>
+    <p>অনুগ্রহ করে অপেক্ষা করুন, আপনাকে মূল পেজে নিয়ে যাওয়া হচ্ছে।</p>
+  </body>
+</html>
